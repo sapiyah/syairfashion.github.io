@@ -1,0 +1,71 @@
+body{
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 20px;
+}
+
+.keranjang {
+    margin: 20px;
+}
+
+.keranjang i {
+    font-size: 15px;
+}
+
+.keranjang-list {
+    margin: 5px;
+}
+
+.prodak {
+    margin: 0 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4%;
+    padding: 10px;
+    overflow: hidden; /* Menambahkan overflow: hidden untuk menangani float */
+}
+
+.prodak img {
+    width: 12%; /* Menyesuaikan ukuran gambar */
+    height: auto;
+    border-radius: 8px;
+    float: left;
+    margin: 0 20px 10px 10px; /* Memberikan margin agar teks tidak terlalu dekat dengan gambar */
+}
+
+.prodak li {
+    list-style: none;
+    text-align: left; /* Mengubah align menjadi left */
+}
+
+.prodak .product-name {
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.prodak .text {
+    overflow: hidden;  /* Menambahkan overflow: hidden untuk menangani float */
+}
+
+.prodak .title {
+    font-weight: bold;
+    text-align: center;  /* Menengahkan title */
+}
+
+.prodak .harga{
+    /* float: right; */
+    text-align: center; /* Menengahkan harga */
+}
+
+.payment {
+    margin-top: 5%;
+    margin-left: 25px;
+}
+
+.payment i{
+    padding: 1%;
+    border-radius: 4px;
+    background-color: yellowgreen;
+}

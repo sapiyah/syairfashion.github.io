@@ -1,0 +1,27 @@
+.footer-container{
+    background-color: #B2C8BA;
+    text-align: center;
+    padding: 2%;
+}
+footer .brand{
+    margin-bottom: 2%;
+}
+footer h4{
+    color: #fff;
+    font-size: x-large;
+    margin-bottom: 2%;
+}
+footer a{
+    color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+}
+footer a i{
+    font-size: 2em;
+}
+.footer-bottom{
+    background-color: rgb(62, 62, 62);
+    text-align: center;
+    color: #fff;
+    padding: 2%;
+}

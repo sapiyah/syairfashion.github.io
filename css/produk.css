@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 20px;
+}
+
+/* Category */
+.category{
+    margin: 50px;
+    float: left;
+}
+.kategori{
+    padding: 20px;
+    text-align: center;
+    border: solid 1px grey;
+}
+.kategori li{
+    list-style: none;
+}
+
+/* Product */
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 0;
+    text-align: center;
+}
+.produk{
+    width: calc(25% - 20px);
+    margin: 0 10px 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4%;
+    height: max-content;
+}
+.produk img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.produk h5{
+    padding: 2%;
+    font-weight: bold;
+    font-size: larger;
+}
+.produk .deskripsi{
+    padding: 0 2% 2%;
+}
+.produk .harga{
+    padding: 0 3% 3%;
+    font-size: larger;
+}
+.produk .text{
+    height: auto;
+}
+.produk .text a{
+    text-decoration: none;
+    margin: 2%;
+    padding: 1% 5%;
+    border-radius: 4%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: black;
+    background-color: #D2E3C8;
+}
